@@ -191,6 +191,21 @@ body{
     height: 100%;
     border-radius: 9px;
 }
+#progress2 {
+    background: #333;
+    border-radius: 13px;
+    height: 8px;
+    width: 100%;
+}
+
+#progress2:after {
+    content: '';
+    display: block;
+    background: var(--blue);
+    width: 80%;
+    height: 100%;
+    border-radius: 9px;
+}
 .p6{
 	margin-top: 10px;
 	margin-bottom: 10px;
