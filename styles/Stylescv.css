@@ -1,5 +1,6 @@
 :root{
-	--bgcolor:#beb8ac;
+    background-image: radial-gradient(circle at 50% 109.45%, #e7e3e6 0, #dbdddc 8.33%, #ccd6d3 16.67%, #bbcfca 25%, #a6c6c2 33.33%, #8ebcbb 41.67%, #73b1b5 50%, #55a6b1 58.33%, #329baf 66.67%, #0091ae 75%, #0088ae 83.33%, #007faf 91.67%, #0077b0 100%);
+
 	--blue:#2fb7fe;
 	--black:#3D3F42;
 	--white:#f4f7ff;
