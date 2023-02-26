@@ -36,15 +36,15 @@ body{
 	position: relative;
 }
 .axel-image{
-	    position:absolute;
-    z-index: auto;
-    width: 120px;
-    height: 120px;
-    
-    left: 50%;
-    top: 50%;
-    
-    border: 3px solid var(--gray);
+    position:relative;
+z-index: auto;
+width: 220px;
+height: 300px;
+
+left: 15px;
+top: 1000%;
+
+border: 3px solid var(--gray);
 }
 .nombre{
     color: var(--gray);
