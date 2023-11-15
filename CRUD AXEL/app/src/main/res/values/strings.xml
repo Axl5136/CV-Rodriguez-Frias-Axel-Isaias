@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Crudisto axl</string>
+    <string-array name="units">
+        <item>secos</item>
+        <item>semihumedos</item>
+        <item>enlatados</item>
+    </string-array>
+
+    <string-array name="secos">
+        <item>croquetas perro</item>
+        <item>croquetas gato</item>
+        <item>steaks</item>
+    </string-array>
+
+    <string-array name="semihumedos">
+        <item>pollo</item>
+        <item>frutas</item>
+    </string-array>
+
+    <string-array name="enlatados">
+        <item>Caldos</item>
+        <item>Pollo</item>
+        <item>Trozos de res</item>
+    </string-array>
+    <string name="title_activity_altas">Altas</string>
+
+</resources>
