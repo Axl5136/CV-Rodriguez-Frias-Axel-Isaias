@@ -15,11 +15,11 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
 
-        android:layout_marginStart="67dp"
-        android:layout_marginEnd="69dp"
-        android:layout_marginRight="69dp"
-        android:layout_marginBottom="656dp"
-        android:text="Practica Final CRUD"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginBottom="651dp"
+        android:text="Bienvenido a PetFriend"
         android:textSize="24sp" />
 
     <Button

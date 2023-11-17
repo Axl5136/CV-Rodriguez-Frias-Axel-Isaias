@@ -20,37 +20,48 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/back"
-                android:backgroundTint="#46B378"
+                android:backgroundTint="#4BA6A6"
                 android:onClick="Back"
                 android:text="Regresar"/>
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="48dp"
+                android:layout_height="78dp"
+                android:textStyle="bold"
+                android:textColor="#4BA6A6"
                 android:text="PetFriend"
                 android:textAlignment="center"
-                android:textSize="20dp"
+                android:textSize="40dp"
                  />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:text="Ingrese el Id de su Mascota"
+
                 android:textAlignment="center"
-                android:textColor="#FF0000" />
+                android:textColor="#DDCD6CE8" />
+
             <EditText
+                android:id="@+id/Noid"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/Noid"/>
+                android:layout_marginStart="83dp"
+                android:layout_marginEnd="83dp"
+                android:paddingStart="32dp"
+                android:paddingEnd="32dp" />
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="32dp"
                 android:text="Encierre si su mascota es un perro o gato"
                 android:textAlignment="center"
-                android:textColor="#FF0000"/>
+                android:textColor="#DDCD6CE8"/>
             <RadioGroup
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="83dp"
+                android:layout_marginEnd="83dp"
                 android:id="@+id/tipe">
                 <RadioButton
                     android:layout_width="match_parent"
@@ -58,14 +69,14 @@
                     android:id="@+id/dog"
                     android:foregroundTint="#00F7FF"
                     android:text="Perro"
-                    android:textColor="#009688"/>
+                    android:textColor="#DDCD6CE8"/>
                 <RadioButton
                     android:layout_width="4007dp"
                     android:layout_height="wrap_content"
                     android:id="@+id/cat"
                     android:text="Gatito"
                     android:textAlignment="gravity"
-                    android:textColor="#009688"/>
+                    android:textColor="#DDCD6CE8"/>
 
 
             </RadioGroup>
@@ -74,31 +85,37 @@
                 android:layout_height="34dp"
                 android:text="Cual es el nombre de su mascota? :)"
                 android:textAlignment="center"
-                android:textColor="#FF0000"/>
+                android:textColor="#DDCD6CE8"/>
             <EditText
                 android:id="@+id/nompet"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:layout_marginStart="83dp"
+                android:layout_marginEnd="83dp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:text="Comida favorita de su mascota"
                 android:textAlignment="center"
-                android:textColor="#FF0000"/>
+                android:textColor="#DDCD6CE8"/>
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="83dp"
+                android:layout_marginEnd="83dp"
                 android:id="@+id/comidafav"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="31dp"
                 android:text="Selecciona el tipo de Comida"
                 android:textAlignment="center"
-                android:textColor="#FF0000"/>
+                android:textColor="#DDCD6CE8"/>
             <Spinner
                 android:layout_width="match_parent"
                 android:layout_height="35dp"
+                android:layout_marginStart="83dp"
+                android:layout_marginEnd="83dp"
                 android:id="@+id/comidatipo"
                 android:textAlignment="center"/>
             <TextView
@@ -106,10 +123,12 @@
                 android:layout_height="29dp"
                 android:text="Seleccione la comida"
                 android:textAlignment="center"
-                android:textColor="#FF0000"/>
+                android:textColor="#DDCD6CE8"/>
             <Spinner
                 android:layout_width="match_parent"
                 android:layout_height="36dp"
+                android:layout_marginStart="83dp"
+                android:layout_marginEnd="83dp"
                 android:id="@+id/comida"
                 android:textAlignment="center"
                 />
@@ -118,10 +137,12 @@
                 android:layout_height="30dp"
                 android:text="Selecciona 1-3 opciones"
                 android:textAlignment="center"
-                android:textColor="#FF0000"/>
+                android:textColor="#DDCD6CE8"/>
             <CheckBox
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="83dp"
+                android:layout_marginEnd="83dp"
                 android:id="@+id/limpio"
                 android:text="Lo cepilla y baña cada semana"
                 android:textAlignment="center"/>
@@ -129,19 +150,23 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/veteri"
+                android:layout_marginStart="83dp"
+                android:layout_marginEnd="83dp"
                 android:text="Visita al veterinario cada dos meses"
                 android:textAlignment="center"/>
             <CheckBox
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                 android:id="@+id/caminar"
+                android:layout_marginStart="83dp"
+                android:layout_marginEnd="83dp"
                 android:text="Sale a caminar minimo dos veces al dia"
                 android:textAlignment="center"/>
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/agregar"
-                android:backgroundTint="#9C27B0"
+                android:backgroundTint="#4BA6A6"
                 android:onClick="Agregar"
                 android:text="Dar de alta"/>
 
