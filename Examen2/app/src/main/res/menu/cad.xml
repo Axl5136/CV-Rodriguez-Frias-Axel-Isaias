@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/palomit"
+        android:title="Pa"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/palomit2"
+        android:title="Voca"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/palomit3"
+        android:title="conso"
+        app:showAsAction="always"/>
+
+
+
+    <item
+        android:id="@+id/pal"
+        android:title="palindromo"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/vocales"
+        android:title="vocales"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/conso"
+        android:title="consonantes"
+        app:showAsAction="never"/>
+
+
+</menu>
